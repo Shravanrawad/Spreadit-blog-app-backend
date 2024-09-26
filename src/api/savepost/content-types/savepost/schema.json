@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saveposts",
+  "info": {
+    "singularName": "savepost",
+    "pluralName": "saveposts",
+    "displayName": "savepost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "useravatar": {
+      "type": "string",
+      "required": true
+    },
+    "userId": {
+      "type": "string",
+      "required": true
+    },
+    "imageurl": {
+      "type": "text",
+      "required": true
+    },
+    "postuserId": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
